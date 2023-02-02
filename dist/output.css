@@ -644,6 +644,10 @@ video {
   --tw-ring-color: rgb(183 93 105 / var(--tw-ring-opacity));
 }
 
+.\[min_value\:max_value\] {
+  min_value: max value;
+}
+
 @media (min-width: 1024px) {
   .lg\:m-0 {
     margin: 0px;
