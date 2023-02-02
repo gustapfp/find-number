@@ -14,4 +14,4 @@ display_min_value.innerHTML = min_value;
 
 // console.log(`Min value: ${min_value} `);
 // console.log(`Max value: ${max_value} `);
-// console.log(`Secret number: ${secret_number} `);
+console.log(`Secret number: ${secret_number} `);

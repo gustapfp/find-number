@@ -9,10 +9,7 @@ recognition.addEventListener("result", onSpeak)
 
 function onSpeak(event) {
     let userGuess = event.results[0][0].transcript;
-    displayUserSpeech(userGuess);
-    checkGuessRange(userGuess);
-    checkNanGuess(userGuess);
-    checkGirlFriendName(userGuess);
+    validation(userGuess);
     
 }
 
